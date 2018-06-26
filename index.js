@@ -14,7 +14,7 @@ const app = express();
 
 //cria conexão com o banco de dados
 //e a disponibiliza na variável req.db
-app.use(expressMongoDb('mongodb://localhost/lirachocolates'));
+app.use(expressMongoDb('mongodb://lirachocola:lirachocolates123@165.227.221.155/lirachocolates'));
 
 //converte os dados presentes no corpo da requisição em JSON
 //e os disponibiliza na variável req.body
